@@ -1,0 +1,10 @@
+testCaseCode,testCaseDescription,userName,password
+TC-1,Product Name in both Products page and Cart page should be same,standard_user,secret_sauce
+TC-1,Product Name in both Products page and Cart page should be same,problem_user,secret_sauce
+TC-1,Product Name in both Products page and Cart page should be same,performance_glitch_user,secret_sauce
+TC-2,Product Description in both Products page and Cart page should be same,standard_user,secret_sauce
+TC-2,Product Description in both Products page and Cart page should be same,problem_user,secret_sauce
+TC-2,Product Description in both Products page and Cart page should be same,performance_glitch_user,secret_sauce
+TC-3,Product Price in both Products page and Cart page should be same,standard_user,secret_sauce
+TC-3,Product Price in both Products page and Cart page should be same,problem_user,secret_sauce
+TC-3,Product Price in both Products page and Cart page should be same,performance_glitch_user,secret_sauce
