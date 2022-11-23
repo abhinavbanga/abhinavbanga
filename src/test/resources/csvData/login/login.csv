@@ -1,0 +1,9 @@
+testCaseCode,testCaseDescription,userName,password,errorMessage
+TC-1,User Name cannot be empty,,secret_sauce,Username is required
+TC-2,Password cannot be empty,standard_user,,Password is required
+TC-3,User having User name: locked_out_user is not allowed to successfully login,locked_out_user,secret_sauce,"Sorry, this user has been locked out"
+TC-4,User Name is not one of the accepted user names of the site,test,secret_sauce,Username and password do not match any user in this service
+TC-5,Password is not one of the accepted passwords of the site,standard_user,test,Username and password do not match any user in this service
+TC-6,User Name and Password are accepted ,standard_user,secret_sauce,
+TC-6,User Name and Password are accepted ,problem_user,secret_sauce,
+TC-6,User Name and Password are accepted ,performance_glitch_user,secret_sauce,
