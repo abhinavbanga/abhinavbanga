@@ -1,0 +1,19 @@
+testCaseCode,testCaseDescription,userName,password,sortOrderText,isName,isAsc,labelForAdd,labelForRemove
+TC-1,Products are sorted in lexicographically ascending order of product names,standard_user,secret_sauce,Name (A to Z),Y,Y,,
+TC-1,Products are sorted in lexicographically ascending order of product names,problem_user,secret_sauce,Name (A to Z),Y,Y,,
+TC-1,Products are sorted in lexicographically ascending order of product names,performance_glitch_user,secret_sauce,Name (A to Z),Y,Y,,
+TC-2,Products are sorted in lexicographically descending order of product names,standard_user,secret_sauce,Name (Z to A),Y,N,,
+TC-2,Products are sorted in lexicographically descending order of product names,problem_user,secret_sauce,Name (Z to A),Y,N,,
+TC-2,Products are sorted in lexicographically descending order of product names,performance_glitch_user,secret_sauce,Name (Z to A),Y,N,,
+TC-3,Products are sorted in ascending order of product prices,standard_user,secret_sauce,Price (low to high),N,Y,,
+TC-3,Products are sorted in ascending order of product prices,problem_user,secret_sauce,Price (low to high),N,Y,,
+TC-3,Products are sorted in ascending order of product prices,performance_glitch_user,secret_sauce,Price (low to high),N,Y,,
+TC-4,Products are sorted in descending order of product prices,standard_user,secret_sauce,Price (high to low),N,N,,
+TC-4,Products are sorted in descending order of product prices,problem_user,secret_sauce,Price (high to low),N,N,,
+TC-4,Products are sorted in descending order of product prices,performance_glitch_user,secret_sauce,Price (high to low),N,N,,
+TC-5,No product is added in the shopping cart,standard_user,secret_sauce,,,,add to cart,remove
+TC-5,No product is added in the shopping cart,problem_user,secret_sauce,,,,add to cart,remove
+TC-5,No product is added in the shopping cart,performance_glitch_user,secret_sauce,,,,add to cart,remove
+TC-6,All products are added in the shopping cart,standard_user,secret_sauce,,,,add to cart,remove
+TC-6,All products are added in the shopping cart,problem_user,secret_sauce,,,,add to cart,remove
+TC-6,All products are added in the shopping cart,performance_glitch_user,secret_sauce,,,,add to cart,remove
