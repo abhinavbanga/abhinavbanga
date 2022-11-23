@@ -1,8 +1,0 @@
-TEST_USER = "standard_user"
-STANDARD_USER = "standard_user"
-STANDARD_PASSWORD = "secret_sauce"
-PROBLEM_USER = "problem_user"
-LOCKED_OUT_USER = "locked_out_user"
-EMPTY_STRING = ""
-DROP_TABLES = "'); DROP TABLE *;--"
-URL = "https://www.saucedemo.com"
