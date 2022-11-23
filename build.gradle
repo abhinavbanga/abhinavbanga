@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'com.saucedemo'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.testng', name: 'testng', version: '6.11'
+    testCompile group: 'org.assertj', name: 'assertj-core', version: '3.8.0'
+
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.7'
+
+    compile group: 'com.univocity', name: 'univocity-parsers', version: '2.5.9'
+}
+
+test {
+    systemProperty "saucedemo.browser.type", System.properties.getProperty("saucedemo.browser.type")
+    systemProperty "saucedemo.testCase.code", System.properties.getProperty("saucedemo.testCase.code")
+}
