@@ -1,0 +1,4 @@
+testCaseCode,testCaseDescription,userName,password,firstName,lastName,postalCode,errorMessage
+TC-1,First Name is required,standard_user,secret_sauce,,test,1234,First Name is required
+TC-2,Last Name is required,standard_user,secret_sauce,test,,1235,Last Name is required
+TC-3,Postal Code is required,standard_user,secret_sauce,test,test,,Postal Code is required
